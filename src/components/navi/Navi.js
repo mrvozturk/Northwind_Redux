@@ -8,10 +8,6 @@ import {
   NavItem,
   NavLink,
   NavbarText,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
 } from "reactstrap";
 import CartSummary from "../cart/CartSummary";
 
@@ -26,15 +22,13 @@ function Example(args) {
         <NavbarBrand href="/">reactstrap</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-
           <Nav className="me-auto" navbar>
-           
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">
                 GitHub
               </NavLink>
             </NavItem>
-    
+
             <CartSummary />
           </Nav>
           <NavbarText>Simple Text</NavbarText>

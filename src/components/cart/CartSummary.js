@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
+import { Badge } from "reactstrap";
 
 class CartSummary extends Component {
   renderEmpty() {
@@ -24,8 +25,12 @@ class CartSummary extends Component {
           Sepetiniz
         </DropdownToggle>
         <DropdownMenu end>
-          <DropdownItem>Option 1</DropdownItem>
-          <DropdownItem>Option 2</DropdownItem>
+          {this.props.cart.map((cartItem) => (
+            <DropdownItem key={cartItem.product.id}>
+              {cartItem.product.productName}
+              <Badge color="success">{cartItem.quantity} </Badge>
+            </DropdownItem>
+          ))}
           <DropdownItem divider />
           <DropdownItem>Sepete Git</DropdownItem>
         </DropdownMenu>
