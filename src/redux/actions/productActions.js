@@ -33,7 +33,8 @@ export function saveProduct(product) {
   };
 }
 export async function handleResponse(response) {
-  if (!response.ok) {
+  
+  if (response.ok) {
     return response.json();
   }
   const error = await response.text();

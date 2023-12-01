@@ -5,8 +5,8 @@
       "categoryId": 2,
       "productName": "Chai",
       "quantityPerUnit": "48 - 6 oz jars",
-      "unitPrice": "24",
-      "unitsInStock": 53
+      "unitPrice": "88",
+      "unitsInStock": "9"
     },
     {
       "id": 2,
@@ -26,11 +26,11 @@
     },
     {
       "id": 5,
-      "categoryId": 2,
+      "categoryId": 3,
       "productName": "Chef Anton's Gumbo Mix",
       "quantityPerUnit": "36 boxes",
       "unitPrice": "21",
-      "unitsInStock": 0
+      "unitsInStock": "1"
     },
     {
       "id": 6,
@@ -607,7 +607,7 @@
       "quantityPerUnit": "12 boxes",
       "unitPrice": 13,
       "unitsInStock": 32
-    } 
+    }
   ],
   "categories": [
     {
@@ -652,4 +652,3 @@
     }
   ]
 }
-

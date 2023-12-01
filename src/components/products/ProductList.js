@@ -42,10 +42,9 @@ class ProductList extends Component {
                 <th scope="row">{product.id}</th>
                 <td>
                   <Link to={"/saveproduct/" + product.id}>
-                    {" "}
-                    {product.productName}{" "}
-                  </Link>{" "}
-                  {product.productName}
+                    {product.productName}
+                  </Link>
+                  {product.product}
                 </td>
                 <td>{product.unitPrice}</td>
                 <td>{product.quantityPerUnit}</td>
