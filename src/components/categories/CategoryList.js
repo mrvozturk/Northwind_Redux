@@ -5,6 +5,7 @@ import * as categoryActions from "../../redux/actions/categoryActions";
 import { ListGroup, ListGroupItem } from "reactstrap";
 import * as productActions from "../../redux/actions/productActions";
 
+
 class CategoryList extends Component {
   componentDidMount() {
     this.props.actions.getCategories();

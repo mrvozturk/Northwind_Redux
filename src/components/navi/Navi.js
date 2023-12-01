@@ -28,8 +28,8 @@ function Example(args) {
                 GitHub
               </NavLink>
             </NavItem>
+            <CartSummary  />
 
-            <CartSummary />
           </Nav>
           <NavbarText>Simple Text</NavbarText>
         </Collapse>
