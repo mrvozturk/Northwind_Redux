@@ -17,7 +17,7 @@ const ProductDetail = ({
         label="Product Name"
         value={product.productName || ""}
         onChange={onChange}
-        error="Hata"
+       
       />
       <SelectInput
         name="categoryId"
@@ -29,28 +29,28 @@ const ProductDetail = ({
           text: category.categoryName,
         }))}
         onChange={onChange}
-        error="Hata"
+      
       />
       <TextInput
         name="unitPrice"
         label="unitPrice"
         value={product.unitPrice}
         onChange={onChange}
-        error="Hata"
+        
       />{" "}
       <TextInput
         name="quantityPerUnit"
         label="quantityPerUnit"
         value={product.quantityPerUnit}
         onChange={onChange}
-        error="Hata"
+      
       />{" "}
       <TextInput
         name="unitsInStock"
         label="unitsInStock"
         value={product.unitsInStock}
         onChange={onChange}
-        error="Hata"
+        
       />
       <Button type="submit" className="btn btn-success">
         Kaydet
