@@ -4,4 +4,4 @@
 
 <img width="500" height="300" alt="Ekran Resmi 2023-12-04 13 18 14" src="https://github.com/mrvozturk/Northwind_Redux/assets/133267808/cdb8f691-9d39-425c-9792-aaca4f2d7726">
 
-<img width="500" height="300" alt="Ekran Resmi 2023-12-04 13 23 32" src="https://github.com/mrvozturk/Northwind_Redux/assets/133267808/42ded827-fdcb-493d-9c8e-0fa178ccdf35">
+<img width="500" height="300" alt="Ekran Resmi 2023-12-04 13 32 18" src="https://github.com/mrvozturk/Northwind_Redux/assets/133267808/be8aad4f-d3cd-4b49-b38b-5211ccb08bdf">
