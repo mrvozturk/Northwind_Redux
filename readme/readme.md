@@ -1,1 +1,1 @@
-<img width="500" alt="Ekran Resmi 2023-11-28 19 21 58" src="https://github.com/mrvozturk/Northwind_Redux/assets/133267808/600fcc9d-217e-45bb-a060-986c12f41162">
+<img width="500" height="300" alt="Ekran Resmi 2023-12-04 13 13 18" src="https://github.com/mrvozturk/Northwind_Redux/assets/133267808/e4daa674-975a-447a-89e0-c38e3fc5deb8">
